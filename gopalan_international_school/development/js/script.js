@@ -1,3 +1,14 @@
+$(document).ready(function(){
+    // mobile toggle button function
+    $("#hamberger").click(function(){
+        $(".body__header-main-nav").slideToggle(400);
+        
+    }) 
+})
+
+
+
+
 jQuery(document).ready(function($) {
     "use strict";
     $('#customers-testimonials').owlCarousel( {
