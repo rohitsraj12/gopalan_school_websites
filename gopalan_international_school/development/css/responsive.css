@@ -1,7 +1,81 @@
 @media(min-width: 768px){
+    .mobile__banner {
+        display: none;
+    }
+
+    .wrap__container {
+        width: 75%;
+    }
+
+    .hamberger {
+        display: none;
+    }
+    
+
+  .nav__list + li {
+    margin-left: 50px;
+  }
 
 }
 
 @media(max-width: 767px){
+    .desktop__banner {
+        display: none;
+    }
+
+    .hamberger {
+        position: absolute;
+        top: 34px;
+        right: 5%;
+    }
+
+    .hamberger i {
+        font-size: 2rem;
+        color: #F4A609;
+    }
+
+    .wrap__container {
+        width: 96%;
+    }
+
+    .body__header-top {
+        display: none;
+    }
+
+    .header__main-top-right {
+        display: none;
+    }
+
+    .body__header-main-nav {
+        display: none;
+    }
+
+    .nav__list {
+        padding-left: 4px;
+        border-bottom: 1px solid rgba(2, 58, 104, 0.39);;
+    }
     
+    .nav__link {
+        display: block;
+    }
+
+    /* home page */
+    .syllabus__type {
+        margin-bottom: 40px;
+    }
+
+    .syllabus__type img {
+        padding: 2px;
+    }
+    .amenity {
+        text-align: center;
+    }
+
+    .amenity img{
+        padding-top: 30px;
+    }
+
+    .amenity figure {
+        margin-bottom: 0;
+    }
 }
