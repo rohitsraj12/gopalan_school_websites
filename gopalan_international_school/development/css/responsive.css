@@ -16,6 +16,10 @@
     margin-left: 50px;
   }
 
+  .footer__middle-block {
+    padding: 40px 0;
+  }
+
 }
 
 @media(max-width: 767px){
@@ -57,6 +61,13 @@
     
     .nav__link {
         display: block;
+    }
+
+    .footer__middle-block {
+        padding: 20px 0 0;
+    }
+    .footer__copy-right {
+        text-align: center;
     }
 
     /* home page */
