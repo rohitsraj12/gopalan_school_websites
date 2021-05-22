@@ -1,16 +1,15 @@
-@media(min-width: 768px){
-    .mobile__banner {
-        display: none;
-    }
+@media (min-width: 768px) {
+  .mobile__banner {
+    display: none;
+  }
 
-    .wrap__container {
-        width: 75%;
-    }
+  .wrap__container {
+    width: 80%;
+  }
 
-    .hamberger {
-        display: none;
-    }
-    
+  .hamberger {
+    display: none;
+  }
 
   .nav__list + li {
     margin-left: 50px;
@@ -19,74 +18,73 @@
   .footer__middle-block {
     padding: 40px 0;
   }
-
 }
 
-@media(max-width: 767px){
-    .desktop__banner {
-        display: none;
-    }
+@media (max-width: 767px) {
+  .desktop__banner {
+    display: none;
+  }
 
-    .hamberger {
-        position: absolute;
-        top: 34px;
-        right: 5%;
-    }
+  .hamberger {
+    position: absolute;
+    top: 34px;
+    right: 5%;
+  }
 
-    .hamberger i {
-        font-size: 2rem;
-        color: #F4A609;
-    }
+  .hamberger i {
+    font-size: 2rem;
+    color: #f4a609;
+  }
 
-    .wrap__container {
-        width: 96%;
-    }
+  .wrap__container {
+    width: 96%;
+  }
 
-    .body__header-top {
-        display: none;
-    }
+  .body__header-top {
+    display: none;
+  }
 
-    .header__main-top-right {
-        display: none;
-    }
+  .header__main-top-right {
+    display: none;
+  }
 
-    .body__header-main-nav {
-        display: none;
-    }
+  .body__header-main-nav {
+    display: none;
+  }
 
-    .nav__list {
-        padding-left: 4px;
-        border-bottom: 1px solid rgba(2, 58, 104, 0.39);;
-    }
-    
-    .nav__link {
-        display: block;
-    }
+  .nav__list {
+    padding-left: 4px;
+    border-bottom: 1px solid rgba(2, 58, 104, 0.39);
+  }
 
-    .footer__middle-block {
-        padding: 20px 0 0;
-    }
-    .footer__copy-right {
-        text-align: center;
-    }
+  .nav__link {
+    display: block;
+  }
 
-    /* home page */
-    .syllabus__type {
-        margin-bottom: 40px;
-    }
+  .footer__middle-block {
+    padding: 20px 0 0;
+  }
+  .footer__copy-right {
+    text-align: center;
+  }
 
-    .syllabus__type img {
-        padding: 2px;
-    }
-    .amenity {
-        text-align: center;
-    }
+  /* home page */
+  .syllabus__type {
+    margin-bottom: 40px;
+  }
 
-    .amenity img{
-        padding-top: 30px;
-    }
+  .syllabus__type img {
+    padding: 2px;
+  }
+  .amenity {
+    text-align: center;
+  }
 
-    .amenity figure {
-        margin-bottom: 0;
-    }
+  .amenity img {
+    padding-top: 30px;
+  }
+
+  .amenity figure {
+    margin-bottom: 0;
+  }
 }
