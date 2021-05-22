@@ -1,4 +1,12 @@
 $(document).ready(function(){
+    var urls = $("#capture-url").attr('data-url');
+
+    alert(urls);
+
+    $("a").attt("href").prepend(urls);
+
+
+
     // mobile toggle button function
     $("#hamberger").click(function(){
         $(".body__header-main-nav").slideToggle(400);
